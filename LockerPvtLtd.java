@@ -1,9 +1,7 @@
 package com.Locked.me;
-import com.Locked.me.BusinessOperations.*;
-
+import java.lang.*;
 import java.util.Scanner;
 import java.io.IOException;
-
 public class LockerPvtLtd {
 
 	public static void main(String[] args) throws IOException {
@@ -11,7 +9,7 @@ public class LockerPvtLtd {
 		Scanner sc =new Scanner(System.in);
 		
 		System.out.println("\t*************************");
-		System.out.println("\t! Welcome to LOCKER PVT. LTD.! ");
+		System.out.println("\t! Welcome to LOCKERS PVT. LTD.! ");
 		System.out.println("\t*************************");
 		System.out.println(" Developer\t: Vaseem Akram \n Designation\t: Sr. Software Developer");
 		System.out.println("--------------------------------------------");
@@ -37,7 +35,7 @@ public class LockerPvtLtd {
 				break;
 			case 2:
 				
-					System.out.println("Please choose one of the following options :");
+					System.out.println("Please choose one of the following options :\n");
 					System.out.println("1. Add a File");
 					System.out.println("2. Delete a File");
 					System.out.println("3. Search for a File");
